@@ -50,14 +50,9 @@ body {
     color: #f8f8ff;
   }
   
-  @media (max-width: 600px) {
-    ul {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px 30px;
-  }
-  }
+
   
-  @media (max-width: 375px) {
+  @media (max-width: 600px) {
     ul {
      
       grid-template-columns: 1fr;
